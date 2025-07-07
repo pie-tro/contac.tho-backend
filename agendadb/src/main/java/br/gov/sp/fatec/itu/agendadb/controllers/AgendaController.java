@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 import br.gov.sp.fatec.itu.agendadb.entities.Agenda;
 import br.gov.sp.fatec.itu.agendadb.services.AgendaService;
 
-@CrossOrigin // Consider specifying origins for production, e.g., @CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://main.d2zsysgbol4vd4.amplifyapp.com/")// Consider specifying origins for production, e.g., @CrossOrigin(origins = "http://localhost:4200")
 @RestController
 @RequestMapping("agenda")
 public class AgendaController {
